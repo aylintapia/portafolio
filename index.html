@@ -3,64 +3,80 @@
 <head>
 <meta charset="utf-8">
 <title>Mi Portafolio Web</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link rel="icon" href="images/favicon.ico" type="image/x-ico"/>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href="css/normalize.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/normalize.css"
+<link rel="stylesheet" href="css/styles.css"
 </head>
 
 <body>
-<header id="yo">
-  <nav>
-    <ul>
-      <li><a href="#yo">Yo </a></li>
-      <li><a href="#perfil">Perfil</a></li>
-      <li><a href="#trabajos">Trabajos</a></li>
-      <li><a href="#contacto">Contacto</a></li>
+
+<header id="yo" class="Header">
+  <nav class="MainMenu">
+    <ul class="MainMenu-list">
+      <li class="MainMenu-item"><a class="MainMenu-link" href="#yo">Yo </a></li>
+      <li class="MainMenu-item"><a class="MainMenu-link" href="#perfil">Perfil</a></li>
+      <li class="MainMenu-item"><a class="MainMenu-link" href="#trabajos">Trabajos</a></li>
+      <li class="MainMenu-item"><a class="MainMenu-link" href="#contacto">Contacto</a></li>
     </ul>
   </nav>
-  <figure><img src="images/avatar.jpg"> 
-  <figcaption>
-  <a href="http://instagram.com/aylintapia_" target="_blank">@Aylintapia_</a>
+  <figure class="Header-imageConteiner"> <img src="images/rr.png">  
+  <figcaption class="Header-imageDescription">
+  <a class="Header-link" href="http://instagram.com/aylintapia_" target="_blank">@Aylintapia_</a>
   </figcaption>
-  <p>Aylin Tapia</p>
+  <p class="Header-name">Aylin Tapia</p>
   </figure>
 </header>
-<section id="perfil">
-<h2>Mi Perfil</h2>
-<p>Hola si llegaste hasta aqui puedes ver mi portafolio y contactarme</p>
-<a href="http://instagram.com/aylintapia_" target="_blank">@Aylintapia_</a>
-<a href="http://facebook.com/AylinTapiia" target="_blank">Aylin Tapia</a>
-<a href="http://twitter.com/aylintapia9" target="_blank">@Aylintapia9</a>
+<section id="perfil" class="Profile">
+<h2 class="Profile-title u-title">Mi Perfil</h2>
+<p class="Profile-description">Hola si llegaste hasta aqui puedes ver mi portafolio y contactarme.</p>
+<a class="Profile-link" href="http://instagram.com/aylintapia_" target="_blank">@Aylintapia_</a>
+<a class="Profile-link" href="http://facebook.com/AylinTapiia" target="_blank">Aylin Tapia</a>
+<a class="
+Profile-link" href="http://twitter.com/aylintapia9" target="_blank">@Aylintapia9</a>
 </section>
-<section id="trabajos">
-<h2>Mi Trabajo</h2>
-<article> 
-<figure> 
-<img src="images/proyecto.jpg">
-<figcaption>Website de mejorandola.la </figcaption>
+<section id="trabajos" class="Work">
+<h2 class="Work-title u-title">Mi Trabajo</h2>
+<article class="Work-item"> 
+<figure class="Work-imageConteiner"> 
+<img src="images/proyecto.jpg" class="Work-image">
+<figcaption class="Work-description"> Website </figcaption>
 </figure>
-<figure> 
-<img src="images/proyecto.jpg">
-<figcaption>Website de mejorandola.la </figcaption>
+</article>
+<article class="Work-item"> 
+<figure class="Work-imageConteiner"> 
+<img src="images/proyecto.jpg" class="Work-image">
+<figcaption class="Work-description">Website  </figcaption>
 </figure>
-<figure> 
-<img src="images/thumb2.jpg">
-<figcaption>Website de mejorandola.la </figcaption>
+</article>
+<article class="Work-item"> 
+<figure class="Work-imageConteiner"> 
+<img src="images/proyecto.jpg" class="Work-image">
+<figcaption class="Work-description">Website </figcaption>
 </figure>
-<figure> 
-<img src="images/thumb3.jpg">
-<figcaption>Website de mejorandola.la </figcaption>
-</figure><figure> 
-<img src="images/avatar2.jpg">
-<figcaption>Website de mejorandola.la </figcaption>
+</article>
+<article class="Work-item"> 
+<figure class="Work-imageConteiner"> 
+<img src="images/proyecto.jpg" class="Work-image">
+<figcaption class="Work-description">Website </figcaption>
+</figure>
+</article>
+<article class="Work-item"> 
+<figure class="Work-imageConteiner"> 
+<img src="images/proyecto.jpg" class="Work-image">
+<figcaption class="Work-description">Website </figcaption>
 </figure>
 </article>
 </section>
-<footer id="contacto">
-<div>
-<h3>Contactame</h3>
-<p> Si tienes una sugerencia o quieres trabajar conmigo comunicate al siguiente correo <a href="mailto:aylintapia@hotmail.com"</a> aylintapia@hotmail.com</p>
+<footer id="contacto" class="Footer">
+<div class="Footer-left">
+<h3 class="Footer-title u-title">Contactame</h3>
+<p class="Footer-description"> Si tienes una sugerencia o quieres trabajar conmigo comunicate al siguiente correo <a href="mailto:aylintapia@hotmail.com"</a> aylintapia@hotmail.com</p>
 </div>
 <div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3621.9903884530772!2d-107.40692114847946!3d24.795782645412935!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xff86af6e0a38175d!2sItesus+Culiacan!5e0!3m2!1ses-419!2smx!4v1481123619185" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3621.9903884530772!2d-107.40692114847946!3d24.795782645412935!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xff86af6e0a38175d!2sItesus+Culiacan!5e0!3m2!1ses-419!2smx!4v1481123619185" width="600" height="450" frameborder="0" style="border:0" allowfullscreen" Footer-righ></iframe>
 </div>
 </footer>
 </body>
