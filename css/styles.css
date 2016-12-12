@@ -1,8 +1,8 @@
 /*Utilidades*/
 
 .u-title{
-	color: #00DBFF;
-	border-bottom: 2px dashed #00CCFF;
+	color:#F03;
+	border-bottom: 2px dashed #F9C;
 	font-weight:normal;
 	text-align:center;
 	padding-bottom:.5em;
@@ -32,7 +32,7 @@
 	display: inline-block;
 	}
 .MainMenu-link{
-	color: #00DBFF;
+	color:#F03;
 	text-decoration:none;
 	line-height: 3.75em;
 	margin-right: 1.5em;
@@ -43,7 +43,7 @@
 
 .Header{
 	margin-top: 3.75em;
-	background-image:url(../images/portada.jpg);
+	background-image:url(../images/Floral-Vector-Red-Background-Hd.jpg);
 	background-repeat:no-repeat;
 	background-position:center;
 	height:350px;
@@ -52,7 +52,7 @@
 	padding:1.2em 0;
 }
 .Header-image{
-	border: 5px solid #FFF;
+	border: 5px solid #F0F;
 	border-radius: 50%;
 	
 }
@@ -78,8 +78,8 @@
 	
 	}
 .Profile-link{
-	background:#F90;
-	color:#FFF;
+	background:#F03;
+	color:#0F0;
 	text-decoration:none;
 	padding:.5em 1em;
 	border-radius:2em;
@@ -111,7 +111,7 @@
 /*Footer*/
 
 .Footer{
-	background-image:url(../images/footer.jpg);
+	background-image:url(../images/fondo-madera-negro.jpg);
 	margin-bottom:500px;
 	background-repeat:no-repeat;
 	background-position:center;
@@ -119,12 +119,12 @@
 	
 	}
 .Footer-title{
-	color:#FFF;
+	color:#F00;
 	
 	}
 .Footer-description{
 	text-align:center;
-	color:#000;
+	color:#FFF;
 	}
 .Footer-left{
 	display:inline-block;
